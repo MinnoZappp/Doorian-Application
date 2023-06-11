@@ -1,0 +1,6 @@
+framework module Pods_doorianMock {
+  umbrella header "Pods-doorianMock-umbrella.h"
+
+  export *
+  module * { export * }
+}

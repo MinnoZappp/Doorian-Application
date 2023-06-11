@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่
+และถูกใช้สำหรับเส้นทาง ผลการค้นหาใน
+บริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่
+และถูกใช้สำหรับเส้นทาง ผลการค้นหาใน
+บริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่
+และถูกใช้สำหรับเส้นทาง ผลการค้นหาใน
+บริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.838746405686-4vk4fjqelka0kqetr5lb0escp7ja8p83</string>
+			</array>
+		</dict>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NotoSans-Bold.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

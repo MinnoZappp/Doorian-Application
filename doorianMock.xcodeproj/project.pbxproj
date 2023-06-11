@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26139B332A0FD84600ACB7A5 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26139B322A0FD84600ACB7A5 /* NotoSans-Bold.ttf */; };
+		26214D5929E2C9DB00EF958B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 26214D5829E2C9DB00EF958B /* SDWebImageSwiftUI */; };
+		26214D5F29E6DACC00EF958B /* getContents1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D5E29E6DACC00EF958B /* getContents1.swift */; };
+		26214D6129E6DB2800EF958B /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6029E6DB2800EF958B /* Content.swift */; };
+		26214D6329E6DE9E00EF958B /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6229E6DE9D00EF958B /* test.swift */; };
+		26214D6529E91C9500EF958B /* ContentAllNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6429E91C9500EF958B /* ContentAllNews.swift */; };
+		26214D6729E91E0A00EF958B /* GeneralNewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6629E91E0A00EF958B /* GeneralNewsCard.swift */; };
+		26214D6929EAADFF00EF958B /* ContentAllGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6829EAADFF00EF958B /* ContentAllGroupView.swift */; };
+		26214D6E29EFDA3F00EF958B /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6D29EFDA3F00EF958B /* Favorite.swift */; };
+		26214D7029F25F3A00EF958B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D6F29F25F3A00EF958B /* Database.swift */; };
+		26214D7229F2894C00EF958B /* GeneralContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D7129F2894C00EF958B /* GeneralContent.swift */; };
+		26214D7629F289F500EF958B /* getGeneralContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26214D7529F289F500EF958B /* getGeneralContent.swift */; };
+		2622D5772A1248270006D74A /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622D5762A1248270006D74A /* Classifier.swift */; };
+		2622D57B2A1248710006D74A /* ImagePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622D57A2A1248710006D74A /* ImagePick.swift */; };
+		2622D57D2A1248930006D74A /* ScanPickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622D57C2A1248930006D74A /* ScanPickerButton.swift */; };
+		2622D57F2A1248F90006D74A /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2622D57E2A1248F90006D74A /* ImageClassifier.swift */; };
+		263EB7822A1251CE00A355FF /* ScanPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263EB7812A1251CD00A355FF /* ScanPicker.swift */; };
+		263EB7842A1252E000A355FF /* disease.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 263EB7832A1252E000A355FF /* disease.mlmodel */; };
+		268468EC2A079338008AFE27 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268468EB2A079338008AFE27 /* HomeViewModel.swift */; };
+		26E6C4B829D3DB9100EBBD28 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4B729D3DB9100EBBD28 /* AuthView.swift */; };
+		26E6C4BA29D3DC0E00EBBD28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4B929D3DC0E00EBBD28 /* ContentView.swift */; };
+		26E6C4BE29D3DF2600EBBD28 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4BD29D3DF2600EBBD28 /* Extension.swift */; };
+		26E6C4C029D3E07B00EBBD28 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4BF29D3E07B00EBBD28 /* String.swift */; };
+		26E6C4C229D3E63500EBBD28 /* GoogleSigninBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4C129D3E63500EBBD28 /* GoogleSigninBtn.swift */; };
+		26E6C4C629D3FE9400EBBD28 /* ContentGeneralNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4C529D3FE9400EBBD28 /* ContentGeneralNews.swift */; };
+		26E6C4CA29D3FF6800EBBD28 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4C929D3FF6800EBBD28 /* NewsCard.swift */; };
+		26E6C4D729D4031B00EBBD28 /* HistoryDisease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4D629D4031B00EBBD28 /* HistoryDisease.swift */; };
+		26E6C4DA29D403E500EBBD28 /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4D929D403E500EBBD28 /* GroupView.swift */; };
+		26E6C4DC29D4041300EBBD28 /* Item2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4DB29D4041300EBBD28 /* Item2.swift */; };
+		26E6C4E129D407D900EBBD28 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4E029D407D900EBBD28 /* ImagePicker.swift */; };
+		26E6C4E929D4165000EBBD28 /* MinimizedViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4E829D4165000EBBD28 /* MinimizedViewNotification.swift */; };
+		26E6C4EC29D4171200EBBD28 /* MinimizedViewDiagnose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4EB29D4171200EBBD28 /* MinimizedViewDiagnose.swift */; };
+		26E6C4EE29D4173000EBBD28 /* ResultFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4ED29D4173000EBBD28 /* ResultFullView.swift */; };
+		26E6C4F629D41A6B00EBBD28 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4F529D41A6B00EBBD28 /* ResetPasswordView.swift */; };
+		26E6C4FC29D421A000EBBD28 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E6C4FB29D421A000EBBD28 /* GoogleService-Info.plist */; };
+		26E6C4FE29D42E0500EBBD28 /* MainMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C4FD29D42E0500EBBD28 /* MainMessagesView.swift */; };
+		26E6C50029D48C9600EBBD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E6C4FF29D48C9600EBBD28 /* Main.storyboard */; };
+		26E6C50229DA83E300EBBD28 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E6C50129DA83E300EBBD28 /* View.swift */; };
+		26EA871129FA752D00F40408 /* FavoriteG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EA871029FA752D00F40408 /* FavoriteG.swift */; };
+		4826535D2A15234500EECFA0 /* durianDisease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826535C2A15234500EECFA0 /* durianDisease.swift */; };
+		4826535F2A1523C800EECFA0 /* Disease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826535E2A1523C800EECFA0 /* Disease.swift */; };
+		482653612A1523D000EECFA0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482653602A1523D000EECFA0 /* ModelData.swift */; };
+		48281F6229D338BA003968E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F6129D338BA003968E9 /* AppDelegate.swift */; };
+		48281F6429D338BA003968E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F6329D338BA003968E9 /* SceneDelegate.swift */; };
+		48281F6629D338BA003968E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F6529D338BA003968E9 /* ViewController.swift */; };
+		48281F6B29D338BC003968E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48281F6A29D338BC003968E9 /* Assets.xcassets */; };
+		48281F6E29D338BC003968E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48281F6C29D338BC003968E9 /* LaunchScreen.storyboard */; };
+		48281F7629D33977003968E9 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F7529D33977003968E9 /* SwiftUIView.swift */; };
+		48281F7829D33B8F003968E9 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F7729D33B8F003968E9 /* CustomTabbar.swift */; };
+		48281F7C29D33C00003968E9 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F7B29D33C00003968E9 /* ResultView.swift */; };
+		48281F8429D34E41003968E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F8329D34E41003968E9 /* MainViewController.swift */; };
+		48281F8629D34EDC003968E9 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F8529D34EDC003968E9 /* MainViewController+CameraPicker.swift */; };
+		48281F8829D34F08003968E9 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F8729D34F08003968E9 /* MainViewController+PhotoPicker.swift */; };
+		48281F8B29D34F47003968E9 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F8A29D34F47003968E9 /* ImagePredictor.swift */; };
+		48281F8D29D34F77003968E9 /* newleaf.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 48281F8C29D34F77003968E9 /* newleaf.mlmodel */; };
+		48281F9129D34FE0003968E9 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F9029D34FE0003968E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		48281F9329D34FFB003968E9 /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48281F9229D34FFB003968E9 /* VNClassificationObservation+confidenceString.swift */; };
+		4829B3A42A16401B00C5FDB8 /* NameEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829B3A12A16401B00C5FDB8 /* NameEditView.swift */; };
+		4829B3A52A16401B00C5FDB8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829B3A22A16401B00C5FDB8 /* AccountView.swift */; };
+		4829B3A72A16427500C5FDB8 /* disease3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4829B3A62A16427500C5FDB8 /* disease3.mlmodel */; };
+		483A1A0C2A15F032002A7C65 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A0A2A15F032002A7C65 /* LoginView.swift */; };
+		483A1A0D2A15F032002A7C65 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A0B2A15F032002A7C65 /* ProfileView.swift */; };
+		483A1A132A162B22002A7C65 /* ErrorDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A122A162B22002A7C65 /* ErrorDetection.swift */; };
+		483A1A152A162DFD002A7C65 /* ContentTodayNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A142A162DFD002A7C65 /* ContentTodayNews.swift */; };
+		483A1A1B2A1633B9002A7C65 /* FireAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A1A2A1633B9002A7C65 /* FireAuth.swift */; };
+		483A1A1D2A16355C002A7C65 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A1C2A16355B002A7C65 /* SignupView.swift */; };
+		483A1A1F2A163CD5002A7C65 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A1A1E2A163CD5002A7C65 /* HomeView.swift */; };
+		48C00EDC2A16573200742EED /* ChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C00EDB2A16573200742EED /* ChangePasswordView.swift */; };
+		48C00EDE2A16574A00742EED /* EmailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C00EDD2A16574A00742EED /* EmailEditView.swift */; };
+		48C00EE12A1659B000742EED /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C00EDF2A1659B000742EED /* CardView.swift */; };
+		48C00EE22A1659B000742EED /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C00EE02A1659B000742EED /* FavoriteView.swift */; };
+		774907890736C9A66D08FC37 /* Pods_doorianMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C471B44A2DDEF8D463B8ADA1 /* Pods_doorianMock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26139B322A0FD84600ACB7A5 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		26214D5E29E6DACC00EF958B /* getContents1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getContents1.swift; sourceTree = "<group>"; };
+		26214D6029E6DB2800EF958B /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		26214D6229E6DE9D00EF958B /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		26214D6429E91C9500EF958B /* ContentAllNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAllNews.swift; sourceTree = "<group>"; };
+		26214D6629E91E0A00EF958B /* GeneralNewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralNewsCard.swift; sourceTree = "<group>"; };
+		26214D6829EAADFF00EF958B /* ContentAllGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAllGroupView.swift; sourceTree = "<group>"; };
+		26214D6D29EFDA3F00EF958B /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		26214D6F29F25F3A00EF958B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		26214D7129F2894C00EF958B /* GeneralContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralContent.swift; sourceTree = "<group>"; };
+		26214D7529F289F500EF958B /* getGeneralContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getGeneralContent.swift; sourceTree = "<group>"; };
+		2622D5762A1248270006D74A /* Classifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		2622D57A2A1248710006D74A /* ImagePick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePick.swift; sourceTree = "<group>"; };
+		2622D57C2A1248930006D74A /* ScanPickerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanPickerButton.swift; sourceTree = "<group>"; };
+		2622D57E2A1248F90006D74A /* ImageClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		263EB7812A1251CD00A355FF /* ScanPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanPicker.swift; sourceTree = "<group>"; };
+		263EB7832A1252E000A355FF /* disease.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = disease.mlmodel; sourceTree = "<group>"; };
+		268468EB2A079338008AFE27 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		26A155F229E0003D00B4319C /* FirebaseFirestoreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A155F729E0019600B4319C /* FirebaseFirestoreSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E6C4B729D3DB9100EBBD28 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		26E6C4B929D3DC0E00EBBD28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26E6C4BD29D3DF2600EBBD28 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		26E6C4BF29D3E07B00EBBD28 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		26E6C4C129D3E63500EBBD28 /* GoogleSigninBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSigninBtn.swift; sourceTree = "<group>"; };
+		26E6C4C529D3FE9400EBBD28 /* ContentGeneralNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentGeneralNews.swift; sourceTree = "<group>"; };
+		26E6C4C929D3FF6800EBBD28 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		26E6C4D629D4031B00EBBD28 /* HistoryDisease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDisease.swift; sourceTree = "<group>"; };
+		26E6C4D929D403E500EBBD28 /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		26E6C4DB29D4041300EBBD28 /* Item2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2.swift; sourceTree = "<group>"; };
+		26E6C4E029D407D900EBBD28 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		26E6C4E829D4165000EBBD28 /* MinimizedViewNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizedViewNotification.swift; sourceTree = "<group>"; };
+		26E6C4EB29D4171200EBBD28 /* MinimizedViewDiagnose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizedViewDiagnose.swift; sourceTree = "<group>"; };
+		26E6C4ED29D4173000EBBD28 /* ResultFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultFullView.swift; sourceTree = "<group>"; };
+		26E6C4F529D41A6B00EBBD28 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		26E6C4FB29D421A000EBBD28 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26E6C4FD29D42E0500EBBD28 /* MainMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMessagesView.swift; sourceTree = "<group>"; };
+		26E6C4FF29D48C9600EBBD28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		26E6C50129DA83E300EBBD28 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		26EA871029FA752D00F40408 /* FavoriteG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteG.swift; sourceTree = "<group>"; };
+		31E2A7D3F98E392B071FB088 /* Pods-doorianMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doorianMock.debug.xcconfig"; path = "Target Support Files/Pods-doorianMock/Pods-doorianMock.debug.xcconfig"; sourceTree = "<group>"; };
+		4826535C2A15234500EECFA0 /* durianDisease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = durianDisease.swift; sourceTree = "<group>"; };
+		4826535E2A1523C800EECFA0 /* Disease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disease.swift; sourceTree = "<group>"; };
+		482653602A1523D000EECFA0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		48281F5E29D338BA003968E9 /* doorianMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doorianMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48281F6129D338BA003968E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48281F6329D338BA003968E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48281F6529D338BA003968E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48281F6A29D338BC003968E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48281F6D29D338BC003968E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48281F6F29D338BC003968E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48281F7529D33977003968E9 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		48281F7729D33B8F003968E9 /* CustomTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		48281F7B29D33C00003968E9 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		48281F8329D34E41003968E9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		48281F8529D34EDC003968E9 /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
+		48281F8729D34F08003968E9 /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
+		48281F8A29D34F47003968E9 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		48281F8C29D34F77003968E9 /* newleaf.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = newleaf.mlmodel; sourceTree = "<group>"; };
+		48281F9029D34FE0003968E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		48281F9229D34FFB003968E9 /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		4829B3A12A16401B00C5FDB8 /* NameEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameEditView.swift; sourceTree = "<group>"; };
+		4829B3A22A16401B00C5FDB8 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		4829B3A62A16427500C5FDB8 /* disease3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = disease3.mlmodel; sourceTree = "<group>"; };
+		483A1A0A2A15F032002A7C65 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		483A1A0B2A15F032002A7C65 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		483A1A122A162B22002A7C65 /* ErrorDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorDetection.swift; sourceTree = "<group>"; };
+		483A1A142A162DFD002A7C65 /* ContentTodayNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTodayNews.swift; sourceTree = "<group>"; };
+		483A1A1A2A1633B9002A7C65 /* FireAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireAuth.swift; sourceTree = "<group>"; };
+		483A1A1C2A16355B002A7C65 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		483A1A1E2A163CD5002A7C65 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		48C00EDB2A16573200742EED /* ChangePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordView.swift; sourceTree = "<group>"; };
+		48C00EDD2A16574A00742EED /* EmailEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailEditView.swift; sourceTree = "<group>"; };
+		48C00EDF2A1659B000742EED /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		48C00EE02A1659B000742EED /* FavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		6FA4CA135CC67AD77DD90A3B /* Pods-doorianMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doorianMock.release.xcconfig"; path = "Target Support Files/Pods-doorianMock/Pods-doorianMock.release.xcconfig"; sourceTree = "<group>"; };
+		C471B44A2DDEF8D463B8ADA1 /* Pods_doorianMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_doorianMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48281F5B29D338BA003968E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26214D5929E2C9DB00EF958B /* SDWebImageSwiftUI in Frameworks */,
+				774907890736C9A66D08FC37 /* Pods_doorianMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26139B312A0FD83300ACB7A5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				26139B322A0FD84600ACB7A5 /* NotoSans-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		26214D6A29EAAE0500EF958B /* ContentAllNewsView */ = {
+			isa = PBXGroup;
+			children = (
+				26214D6429E91C9500EF958B /* ContentAllNews.swift */,
+				26214D6829EAADFF00EF958B /* ContentAllGroupView.swift */,
+			);
+			path = ContentAllNewsView;
+			sourceTree = "<group>";
+		};
+		2622D5752A1247EB0006D74A /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				483A1A122A162B22002A7C65 /* ErrorDetection.swift */,
+				4829B3A62A16427500C5FDB8 /* disease3.mlmodel */,
+				263EB7832A1252E000A355FF /* disease.mlmodel */,
+				4826535C2A15234500EECFA0 /* durianDisease.swift */,
+				263EB7812A1251CD00A355FF /* ScanPicker.swift */,
+				2622D57E2A1248F90006D74A /* ImageClassifier.swift */,
+				2622D57C2A1248930006D74A /* ScanPickerButton.swift */,
+				2622D57A2A1248710006D74A /* ImagePick.swift */,
+				2622D5762A1248270006D74A /* Classifier.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		26E6C4D829D403B400EBBD28 /* HistoryDiseaseView */ = {
+			isa = PBXGroup;
+			children = (
+				26E6C4D629D4031B00EBBD28 /* HistoryDisease.swift */,
+				26E6C4D929D403E500EBBD28 /* GroupView.swift */,
+				26E6C4DB29D4041300EBBD28 /* Item2.swift */,
+			);
+			path = HistoryDiseaseView;
+			sourceTree = "<group>";
+		};
+		26E6C4DD29D4047400EBBD28 /* FavoriteViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				483A1A1E2A163CD5002A7C65 /* HomeView.swift */,
+				48C00EDF2A1659B000742EED /* CardView.swift */,
+				48C00EE02A1659B000742EED /* FavoriteView.swift */,
+			);
+			path = FavoriteViewGroup;
+			sourceTree = "<group>";
+		};
+		26E6C4E329D4097D00EBBD28 /* AccountViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				4829B3A22A16401B00C5FDB8 /* AccountView.swift */,
+				48C00EDD2A16574A00742EED /* EmailEditView.swift */,
+				4829B3A12A16401B00C5FDB8 /* NameEditView.swift */,
+			);
+			path = AccountViewGroup;
+			sourceTree = "<group>";
+		};
+		26E6C4EA29D416EC00EBBD28 /* Diagnose */ = {
+			isa = PBXGroup;
+			children = (
+				26E6C4EB29D4171200EBBD28 /* MinimizedViewDiagnose.swift */,
+				26E6C4ED29D4173000EBBD28 /* ResultFullView.swift */,
+			);
+			path = Diagnose;
+			sourceTree = "<group>";
+		};
+		26E6C50529DA842700EBBD28 /* Google Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				483A1A1A2A1633B9002A7C65 /* FireAuth.swift */,
+				26E6C50129DA83E300EBBD28 /* View.swift */,
+				26E6C4C129D3E63500EBBD28 /* GoogleSigninBtn.swift */,
+			);
+			path = "Google Firebase";
+			sourceTree = "<group>";
+		};
+		284AF3E6586B348BFC0F43E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E2A7D3F98E392B071FB088 /* Pods-doorianMock.debug.xcconfig */,
+				6FA4CA135CC67AD77DD90A3B /* Pods-doorianMock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		48281F5529D338BA003968E9 = {
+			isa = PBXGroup;
+			children = (
+				48281F6029D338BA003968E9 /* doorianMock */,
+				26E6C4FB29D421A000EBBD28 /* GoogleService-Info.plist */,
+				48281F5F29D338BA003968E9 /* Products */,
+				284AF3E6586B348BFC0F43E1 /* Pods */,
+				C2BCF31F6ACDB3BA2B31C8FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48281F5F29D338BA003968E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48281F5E29D338BA003968E9 /* doorianMock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48281F6029D338BA003968E9 /* doorianMock */ = {
+			isa = PBXGroup;
+			children = (
+				26E6C4EA29D416EC00EBBD28 /* Diagnose */,
+				48281F8029D34E00003968E9 /* MainViews */,
+				48281F8929D34F24003968E9 /* ImagePicker */,
+				48281F8F29D34FAF003968E9 /* Model */,
+				48281F8E29D34F96003968E9 /* Extension */,
+				48281F6129D338BA003968E9 /* AppDelegate.swift */,
+				48281F6329D338BA003968E9 /* SceneDelegate.swift */,
+				48281F6529D338BA003968E9 /* ViewController.swift */,
+				48281F7F29D34D34003968E9 /* TabViews */,
+				48281F7529D33977003968E9 /* SwiftUIView.swift */,
+				48281F7729D33B8F003968E9 /* CustomTabbar.swift */,
+				48281F6A29D338BC003968E9 /* Assets.xcassets */,
+				48281F6C29D338BC003968E9 /* LaunchScreen.storyboard */,
+				48281F6F29D338BC003968E9 /* Info.plist */,
+				26E6C4B729D3DB9100EBBD28 /* AuthView.swift */,
+				26E6C4B929D3DC0E00EBBD28 /* ContentView.swift */,
+				483A1A0A2A15F032002A7C65 /* LoginView.swift */,
+				483A1A0B2A15F032002A7C65 /* ProfileView.swift */,
+				483A1A1C2A16355B002A7C65 /* SignupView.swift */,
+				26E6C4BF29D3E07B00EBBD28 /* String.swift */,
+				26E6C50529DA842700EBBD28 /* Google Firebase */,
+				26E6C4C529D3FE9400EBBD28 /* ContentGeneralNews.swift */,
+				26214D6629E91E0A00EF958B /* GeneralNewsCard.swift */,
+				483A1A142A162DFD002A7C65 /* ContentTodayNews.swift */,
+				26E6C4C929D3FF6800EBBD28 /* NewsCard.swift */,
+				26214D6A29EAAE0500EF958B /* ContentAllNewsView */,
+				26E6C4E029D407D900EBBD28 /* ImagePicker.swift */,
+				2622D5752A1247EB0006D74A /* Scan */,
+				26E6C4E829D4165000EBBD28 /* MinimizedViewNotification.swift */,
+				26214D6F29F25F3A00EF958B /* Database.swift */,
+				26E6C4F529D41A6B00EBBD28 /* ResetPasswordView.swift */,
+				26214D5E29E6DACC00EF958B /* getContents1.swift */,
+				26214D7529F289F500EF958B /* getGeneralContent.swift */,
+				26214D6D29EFDA3F00EF958B /* Favorite.swift */,
+				26EA871029FA752D00F40408 /* FavoriteG.swift */,
+				26214D7129F2894C00EF958B /* GeneralContent.swift */,
+				26214D6029E6DB2800EF958B /* Content.swift */,
+				26214D6229E6DE9D00EF958B /* test.swift */,
+				26E6C4FD29D42E0500EBBD28 /* MainMessagesView.swift */,
+				26139B312A0FD83300ACB7A5 /* Font */,
+			);
+			path = doorianMock;
+			sourceTree = "<group>";
+		};
+		48281F7F29D34D34003968E9 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				26E6C4E329D4097D00EBBD28 /* AccountViewGroup */,
+				26E6C4DD29D4047400EBBD28 /* FavoriteViewGroup */,
+				268468EB2A079338008AFE27 /* HomeViewModel.swift */,
+				48281F7B29D33C00003968E9 /* ResultView.swift */,
+				48C00EDB2A16573200742EED /* ChangePasswordView.swift */,
+				26E6C4D829D403B400EBBD28 /* HistoryDiseaseView */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		48281F8029D34E00003968E9 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				48281F8329D34E41003968E9 /* MainViewController.swift */,
+				48281F8529D34EDC003968E9 /* MainViewController+CameraPicker.swift */,
+				48281F8729D34F08003968E9 /* MainViewController+PhotoPicker.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		48281F8929D34F24003968E9 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				48281F8A29D34F47003968E9 /* ImagePredictor.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		48281F8E29D34F96003968E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48281F9029D34FE0003968E9 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+				48281F9229D34FFB003968E9 /* VNClassificationObservation+confidenceString.swift */,
+				26E6C4BD29D3DF2600EBBD28 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48281F8F29D34FAF003968E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48281F8C29D34F77003968E9 /* newleaf.mlmodel */,
+				26E6C4FF29D48C9600EBBD28 /* Main.storyboard */,
+				482653602A1523D000EECFA0 /* ModelData.swift */,
+				4826535E2A1523C800EECFA0 /* Disease.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2BCF31F6ACDB3BA2B31C8FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A155F729E0019600B4319C /* FirebaseFirestoreSwift.framework */,
+				26A155F229E0003D00B4319C /* FirebaseFirestoreSwift.framework */,
+				C471B44A2DDEF8D463B8ADA1 /* Pods_doorianMock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48281F5D29D338BA003968E9 /* doorianMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48281F7229D338BC003968E9 /* Build configuration list for PBXNativeTarget "doorianMock" */;
+			buildPhases = (
+				41E753C2EE12B97A180E2230 /* [CP] Check Pods Manifest.lock */,
+				48281F5A29D338BA003968E9 /* Sources */,
+				48281F5B29D338BA003968E9 /* Frameworks */,
+				48281F5C29D338BA003968E9 /* Resources */,
+				6E7338B979B84A3F541DFC8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doorianMock;
+			packageProductDependencies = (
+				26214D5829E2C9DB00EF958B /* SDWebImageSwiftUI */,
+			);
+			productName = doorianMock;
+			productReference = 48281F5E29D338BA003968E9 /* doorianMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48281F5629D338BA003968E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					48281F5D29D338BA003968E9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 48281F5929D338BA003968E9 /* Build configuration list for PBXProject "doorianMock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48281F5529D338BA003968E9;
+			packageReferences = (
+				26214D5729E2C9DB00EF958B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 48281F5F29D338BA003968E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48281F5D29D338BA003968E9 /* doorianMock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48281F5C29D338BA003968E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48281F6E29D338BC003968E9 /* LaunchScreen.storyboard in Resources */,
+				26E6C4FC29D421A000EBBD28 /* GoogleService-Info.plist in Resources */,
+				48281F6B29D338BC003968E9 /* Assets.xcassets in Resources */,
+				26139B332A0FD84600ACB7A5 /* NotoSans-Bold.ttf in Resources */,
+				26E6C50029D48C9600EBBD28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41E753C2EE12B97A180E2230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-doorianMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7338B979B84A3F541DFC8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doorianMock/Pods-doorianMock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doorianMock/Pods-doorianMock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doorianMock/Pods-doorianMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48281F5A29D338BA003968E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26214D6129E6DB2800EF958B /* Content.swift in Sources */,
+				483A1A1B2A1633B9002A7C65 /* FireAuth.swift in Sources */,
+				26E6C4F629D41A6B00EBBD28 /* ResetPasswordView.swift in Sources */,
+				48C00EDE2A16574A00742EED /* EmailEditView.swift in Sources */,
+				48281F6629D338BA003968E9 /* ViewController.swift in Sources */,
+				2622D57D2A1248930006D74A /* ScanPickerButton.swift in Sources */,
+				26E6C4C029D3E07B00EBBD28 /* String.swift in Sources */,
+				26E6C4E129D407D900EBBD28 /* ImagePicker.swift in Sources */,
+				48C00EE22A1659B000742EED /* FavoriteView.swift in Sources */,
+				48281F9129D34FE0003968E9 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				26E6C4EC29D4171200EBBD28 /* MinimizedViewDiagnose.swift in Sources */,
+				48281F7829D33B8F003968E9 /* CustomTabbar.swift in Sources */,
+				26EA871129FA752D00F40408 /* FavoriteG.swift in Sources */,
+				26E6C4DA29D403E500EBBD28 /* GroupView.swift in Sources */,
+				483A1A1F2A163CD5002A7C65 /* HomeView.swift in Sources */,
+				4826535F2A1523C800EECFA0 /* Disease.swift in Sources */,
+				48281F6229D338BA003968E9 /* AppDelegate.swift in Sources */,
+				26E6C4EE29D4173000EBBD28 /* ResultFullView.swift in Sources */,
+				26E6C4DC29D4041300EBBD28 /* Item2.swift in Sources */,
+				26214D6529E91C9500EF958B /* ContentAllNews.swift in Sources */,
+				483A1A0D2A15F032002A7C65 /* ProfileView.swift in Sources */,
+				263EB7822A1251CE00A355FF /* ScanPicker.swift in Sources */,
+				4829B3A52A16401B00C5FDB8 /* AccountView.swift in Sources */,
+				482653612A1523D000EECFA0 /* ModelData.swift in Sources */,
+				48281F8629D34EDC003968E9 /* MainViewController+CameraPicker.swift in Sources */,
+				483A1A0C2A15F032002A7C65 /* LoginView.swift in Sources */,
+				26E6C4B829D3DB9100EBBD28 /* AuthView.swift in Sources */,
+				26E6C4BA29D3DC0E00EBBD28 /* ContentView.swift in Sources */,
+				483A1A132A162B22002A7C65 /* ErrorDetection.swift in Sources */,
+				48281F8D29D34F77003968E9 /* newleaf.mlmodel in Sources */,
+				48281F9329D34FFB003968E9 /* VNClassificationObservation+confidenceString.swift in Sources */,
+				48281F7629D33977003968E9 /* SwiftUIView.swift in Sources */,
+				26E6C4FE29D42E0500EBBD28 /* MainMessagesView.swift in Sources */,
+				26214D7629F289F500EF958B /* getGeneralContent.swift in Sources */,
+				48C00EDC2A16573200742EED /* ChangePasswordView.swift in Sources */,
+				26E6C4CA29D3FF6800EBBD28 /* NewsCard.swift in Sources */,
+				26214D7229F2894C00EF958B /* GeneralContent.swift in Sources */,
+				263EB7842A1252E000A355FF /* disease.mlmodel in Sources */,
+				26E6C50229DA83E300EBBD28 /* View.swift in Sources */,
+				26E6C4BE29D3DF2600EBBD28 /* Extension.swift in Sources */,
+				4826535D2A15234500EECFA0 /* durianDisease.swift in Sources */,
+				48281F8829D34F08003968E9 /* MainViewController+PhotoPicker.swift in Sources */,
+				483A1A152A162DFD002A7C65 /* ContentTodayNews.swift in Sources */,
+				268468EC2A079338008AFE27 /* HomeViewModel.swift in Sources */,
+				26E6C4D729D4031B00EBBD28 /* HistoryDisease.swift in Sources */,
+				26E6C4C229D3E63500EBBD28 /* GoogleSigninBtn.swift in Sources */,
+				2622D5772A1248270006D74A /* Classifier.swift in Sources */,
+				26214D6329E6DE9E00EF958B /* test.swift in Sources */,
+				48281F8429D34E41003968E9 /* MainViewController.swift in Sources */,
+				2622D57B2A1248710006D74A /* ImagePick.swift in Sources */,
+				26214D6E29EFDA3F00EF958B /* Favorite.swift in Sources */,
+				2622D57F2A1248F90006D74A /* ImageClassifier.swift in Sources */,
+				26214D6929EAADFF00EF958B /* ContentAllGroupView.swift in Sources */,
+				4829B3A72A16427500C5FDB8 /* disease3.mlmodel in Sources */,
+				4829B3A42A16401B00C5FDB8 /* NameEditView.swift in Sources */,
+				26E6C4E929D4165000EBBD28 /* MinimizedViewNotification.swift in Sources */,
+				48281F7C29D33C00003968E9 /* ResultView.swift in Sources */,
+				48281F8B29D34F47003968E9 /* ImagePredictor.swift in Sources */,
+				26214D6729E91E0A00EF958B /* GeneralNewsCard.swift in Sources */,
+				26214D5F29E6DACC00EF958B /* getContents1.swift in Sources */,
+				26E6C4C629D3FE9400EBBD28 /* ContentGeneralNews.swift in Sources */,
+				483A1A1D2A16355C002A7C65 /* SignupView.swift in Sources */,
+				26214D7029F25F3A00EF958B /* Database.swift in Sources */,
+				48C00EE12A1659B000742EED /* CardView.swift in Sources */,
+				48281F6429D338BA003968E9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48281F6C29D338BC003968E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48281F6D29D338BC003968E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48281F7029D338BC003968E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48281F7129D338BC003968E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48281F7329D338BC003968E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E2A7D3F98E392B071FB088 /* Pods-doorianMock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64427W7HNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doorianMock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Doorian;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Takes pictures to demonstrate image recognition.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sami.doorianMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48281F7429D338BC003968E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA4CA135CC67AD77DD90A3B /* Pods-doorianMock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64427W7HNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = doorianMock/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Doorian;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Takes pictures to demonstrate image recognition.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "ตำแแหน่งที่ตั้งปัจจุบันของคุณจะแสดงบนแผนที่ และถูกใช้สำหรับเส้นทาง ผลการค้นหาในบริเวณใกล้เคียง และเวลาเดินทางโดยประมาณ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sami.doorianMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48281F5929D338BA003968E9 /* Build configuration list for PBXProject "doorianMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48281F7029D338BC003968E9 /* Debug */,
+				48281F7129D338BC003968E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48281F7229D338BC003968E9 /* Build configuration list for PBXNativeTarget "doorianMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48281F7329D338BC003968E9 /* Debug */,
+				48281F7429D338BC003968E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26214D5729E2C9DB00EF958B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		26214D5829E2C9DB00EF958B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26214D5729E2C9DB00EF958B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 48281F5629D338BA003968E9 /* Project object */;
+}
